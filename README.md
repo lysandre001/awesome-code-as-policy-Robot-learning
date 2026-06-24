@@ -3,11 +3,20 @@
 LLM 生成可执行程序作为机器人策略（Code as Policy）及相关工作精选列表。
 
 
-### 2023
+### 2022
 
+- Do As I Can, Not As I Say: Grounding Language in Robotic Affordances.
+  - paper : https://arxiv.org/abs/2204.01691
+  - GitHub: https://github.com/google-research/google-research/tree/master/saycan
+
+### 2023
 - Code as Policies: Language Model Programs for Embodied Control
   - Paper: https://arxiv.org/abs/2209.07753
   - GitHub: https://github.com/google-research/google-research/tree/master/code_as_policies
+ 
+- Chain of Code: Reasoning with a Language Model-Augmented Code Emulator
+  - paper:https://arxiv.org/abs/2312.04474
+  - github: https://chain-of-code.github.io/
 
 ### 2024
 
