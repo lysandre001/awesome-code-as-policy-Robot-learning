@@ -2,8 +2,6 @@
 
 LLM 生成可执行程序作为机器人策略（Code as Policy）及相关工作精选列表。
 
-> 范围：**A（核心）+ B（邻近）**，共 19 篇。已移除广义 robot policy / RL / 分层控制等与 CaP 弱相关的条目。
-
 ---
 
 ## A. Core — Code-as-Policy
