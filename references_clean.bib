@@ -1,13 +1,8 @@
 % =============================================================================
-% References: Code as Policies & Embodied Robot Learning
-% =============================================================================
-% Organized by category with BibTeX comments for easy navigation
-% Last updated: 2024
+% Code as Policies — Core (A) + Related (B)
 % =============================================================================
 
-% =============================================================================
-% CATEGORY 1: Core - Code as Policies (Foundational Works)
-% =============================================================================
+% --- A: Core Code-as-Policy ---
 
 @inproceedings{Liang2023CaP,
   title={Code as Policies: Language Model Programs for Embodied Control},
@@ -16,7 +11,7 @@
   year={2023},
   pages={9493--9500},
   doi={10.1109/icra48891.2023.10160591},
-  url={https://doi.org/10.1109/icra48891.2023.10160591}
+  url={https://arxiv.org/abs/2209.07753}
 }
 
 @inproceedings{Arenas2024PromptBook,
@@ -31,23 +26,10 @@
 @article{Ahn2025ReliableCaP,
   title={Towards Reliable Code-as-Policies: A Neuro-Symbolic Framework for Embodied Task Planning},
   author={Ahn, Sanghyun and Choi, Wonje and Lee, Junyong and Park, Jinwoo and Woo, Honguk},
-  journal={arXiv preprint arXiv:2501.xxxxx},
+  journal={arXiv preprint arXiv:2510.21302},
   year={2025},
-  url={https://arxiv.org/abs/2501.xxxxx}
+  url={https://arxiv.org/abs/2510.21302}
 }
-
-@inproceedings{Ma2025ExplorLLM,
-  title={ExplorLLM: Guiding Exploration in Reinforcement Learning with Large Language Models},
-  author={Ma, Runyu and Luijkx, Jelle and Ajanovic, Zlatan and Kober, Jens},
-  booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
-  year={2025},
-  pages={9011--9017},
-  doi={10.1109/icra55743.2025.11127622}
-}
-
-% =============================================================================
-% CATEGORY 2: Code Generation for Robotics
-% =============================================================================
 
 @article{Ji2026GenSwarm,
   title={GenSwarm: Scalable Multi-Robot Code-Policy Generation and Deployment via Language Models},
@@ -110,10 +92,6 @@
   url={https://arxiv.org/abs/2603.22435}
 }
 
-% =============================================================================
-% CATEGORY 3: Vision-Language-Action (VLA) Models
-% =============================================================================
-
 @inproceedings{Shi2025Maestro,
   title={Maestro: Orchestrating Robotics Modules with Vision-Language Models for Zero-Shot Generalist Robots},
   author={Shi, Junyao and Yang, Rujia and Chao, Kaitian and Wan, Selina and Shao, Yifei and Lei, Jiahui and Qian, Jianing and Le, Long and Chaudhari, Pratik and Daniilidis, Kostas and Wen, Chuan and Jayaraman, Dinesh},
@@ -130,6 +108,41 @@
   doi={10.48550/arxiv.2508.02629}
 }
 
+@article{Mikami2024NLPolicies,
+  title={Natural Language as Policies: Reasoning for Coordinate-Level Embodied Control with {LLMs}},
+  author={Mikami, Yusuke and Melnik, Andrew and Miura, Jun and Hautam{\"a}ki, Ville},
+  journal={arXiv preprint arXiv:2403.13801},
+  year={2024},
+  doi={10.48550/arxiv.2403.13801}
+}
+
+@article{Liu2024RLGPT,
+  title={{RL-GPT}: Integrating Reinforcement Learning and Code-as-Policy},
+  author={Liu, Shaoteng and Yuan, Haoqi and Hu, Minda and Li, Yanwei and Chen, Yukang and Liu, Shu and Lu, Zongqing and Jia, Jiaya},
+  journal={arXiv preprint arXiv:2402.19299},
+  year={2024},
+  url={https://arxiv.org/abs/2402.19299}
+}
+
+@article{Zhang2026Playful,
+  title={Playful Agentic Robot Learning},
+  author={Zhang, Junyi and Ge, Jiaxin and Yoo, Hanjun and Fu, Letian and Yang, Zihan and Liu, Yaowei and Saravanan, Raj and Yin, Shaofeng and Yu, Justin and Niu, Dantong and Wang, Zirui and Herzig, Roei and Goldberg, Ken and Bai, Yutong and Chan, David and Stoica, Ion and Kanazawa, Angjoo and Lei, Jiahui and Feng, Haiwen and Darrell, Trevor},
+  journal={arXiv preprint arXiv:2606.19419},
+  year={2026},
+  url={https://arxiv.org/abs/2606.19419}
+}
+
+% --- B: Related (same lineage / baseline / complement) ---
+
+@inproceedings{Ma2025ExplorLLM,
+  title={ExplorLLM: Guiding Exploration in Reinforcement Learning with Large Language Models},
+  author={Ma, Runyu and Luijkx, Jelle and Ajanovic, Zlatan and Kober, Jens},
+  booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
+  year={2025},
+  pages={9011--9017},
+  doi={10.1109/icra55743.2025.11127622}
+}
+
 @inproceedings{Duan2024ManipulateAnything,
   title={Manipulate-Anything: Automating Real-World Robots using Vision-Language Models},
   author={Duan, Jiafei and Yuan, Wentao and Pumacay, Wilbert and Wang, Yi and Ehsani, Kiana and Fox, Dieter and Krishna, Ranjay},
@@ -139,166 +152,13 @@
   doi={10.48550/arxiv.2406.18915}
 }
 
-@article{Liu2024VLPolicy,
-  title={Vision-Language-Conditioned Learning Policy for Robotic Manipulation},
-  author={Liu, Sichao and Liu, Zhen and Wang, Lirui and Wang, Xiaolong},
-  journal={arXiv preprint},
-  year={2024}
-}
-
-% =============================================================================
-% CATEGORY 4: Hierarchical & Modular Policies
-% =============================================================================
-
-@inproceedings{Li2025HAMSTER,
-  title={{HAMSTER}: Hierarchical Action Models for Open-World Robot Manipulation},
-  author={Li, Yi and Deng, Yuquan and Zhang, Jesse and Jang, Joel and Memmel, Marius and Garrett, Caelan and Ramos, Fabio and Fox, Dieter and Li, Anqi and Gupta, Abhishek and Goyal, Ankit},
-  booktitle={International Conference on Learning Representations (ICLR)},
-  year={2025},
-  pages={24040--24068},
-  doi={10.48550/arxiv.2502.05485}
-}
-
-@article{Yang2021HierarchicalRL,
-  title={Hierarchical Reinforcement Learning with Universal Policies for Multistep Robotic Manipulation},
-  author={Yang, Xintong and Ji, Ze and Wu, Jing and Lai, Yu-Kun and Wei, Changyun and Liu, Guoliang and Setchi, Rossitza},
-  journal={IEEE Transactions on Neural Networks and Learning Systems},
-  volume={33},
-  number={9},
-  pages={4727--4741},
-  year={2021},
-  doi={10.1109/tnnls.2021.3059912}
-}
-
-@article{Yan2023Hierarchical,
-  title={Hierarchical Policy Learning with Demonstration Learning for Robotic Multiple Peg-in-Hole Assembly Tasks},
-  author={Yan, Shaohua and Xu, De and Tao, Xian},
-  journal={IEEE Transactions on Industrial Informatics},
-  volume={19},
-  number={10},
-  pages={10254--10264},
+@article{Yu2023LanguageRewards,
+  title={Language to Rewards for Robotic Skill Synthesis},
+  author={Yu, Wenhao and Gileadi, Nimrod and Fu, Chuyuan and Kirmani, Sean and Lee, Kuang-Huei and Arenas, Montse and Chiang, Hao-Tien and Erez, Tom and Hasenclever, Leonard and Humplik, Jan and Ichter, Brian and Xiao, Ted and Xu, Peng and Zeng, Andy and Zhang, Tingnan and Heess, Nicolas and Sadigh, Dorsa and Tan, Jie and Tassa, Yuval and Xia, Fei},
+  journal={arXiv preprint arXiv:2306.08647},
   year={2023},
-  doi={10.1109/tii.2023.3240936}
+  doi={10.48550/arxiv.2306.08647}
 }
-
-@article{Whitman2023Modular,
-  title={Learning Modular Robot Control Policies},
-  author={Whitman, Julian and Travers, Matthew J. and Choset, Howie},
-  journal={IEEE Transactions on Robotics},
-  volume={39},
-  number={5},
-  pages={4095--4113},
-  year={2023},
-  doi={10.1109/tro.2023.3284362}
-}
-
-@article{Neumann2014Modular,
-  title={Learning Modular Policies for Robotics},
-  author={Neumann, Gerhard and Daniel, Christian and Paraschos, Alexandros and Kupcsik, Andras and Peters, Jan},
-  journal={Frontiers in Computational Neuroscience},
-  volume={8},
-  pages={62},
-  year={2014},
-  doi={10.3389/fncom.2014.00062}
-}
-
-@article{Simonic2023Hierarchical,
-  title={Hierarchical Learning of Robotic Contact Policies},
-  author={Simonic, Mihael and Ude, Ales and Nemec, Bojan},
-  journal={Robotics and Computer-Integrated Manufacturing},
-  volume={86},
-  pages={102657},
-  year={2023},
-  doi={10.1016/j.rcim.2023.102657}
-}
-
-% =============================================================================
-% CATEGORY 5: Policy Composition & Transfer
-% =============================================================================
-
-@inproceedings{Wang2024PoCo,
-  title={PoCo: Policy Composition from and for Heterogeneous Robot Learning},
-  author={Wang, Lirui and Zhao, Jialiang and Du, Yilun and Adelson, Edward H. and Tedrake, Russ},
-  booktitle={Robotics: Science and Systems (RSS)},
-  year={2024},
-  doi={10.15607/rss.2024.xx.127}
-}
-
-@inproceedings{Li2021RMP2,
-  title={{RMP2}: A Structured Composable Policy Class for Robot Learning},
-  author={Li, Anqi and Cheng, Ching-An and Rana, Muhammad Asif and Xie, Man and Van Wyk, Karl and Ratliff, Nathan D. and Boots, Byron},
-  booktitle={Robotics: Science and Systems (RSS)},
-  year={2021},
-  doi={10.15607/rss.2021.xvii.092}
-}
-
-@inproceedings{Wang2023PolicyMerging,
-  title={Robot Fleet Learning via Policy Merging},
-  author={Wang, Lirui and Zhang, Kaiqing and Zhou, Allan and Simchowitz, Max and Tedrake, Russ},
-  booktitle={International Conference on Learning Representations (ICLR)},
-  year={2023}
-}
-
-@article{Chen2022HardwareConditioned,
-  title={Hardware Conditioned Policies for Multi-Robot Transfer Learning},
-  author={Chen, Tao and Murali, Adithyavairavan and Gupta, Abhinav},
-  journal={arXiv preprint arXiv:1811.09864},
-  year={2022},
-  volume={31},
-  pages={9333--9344},
-  doi={10.48550/arxiv.1811.09864}
-}
-
-@article{Ju2022Sim2Real,
-  title={Transferring Policy of Deep Reinforcement Learning from Simulation to Reality for Robotics},
-  author={Ju, Hao and Juan, Rongshun and Gomez, Randy and Nakamura, Keisuke and Li, Guangliang},
-  journal={Nature Machine Intelligence},
-  volume={4},
-  number={12},
-  pages={1077--1087},
-  year={2022},
-  doi={10.1038/s42256-022-00573-6}
-}
-
-% =============================================================================
-% CATEGORY 6: Reinforcement Learning for Robotics
-% =============================================================================
-
-@article{Liu2024RLGPT,
-  title={{RL-GPT}: Integrating Reinforcement Learning and Code-as-Policy},
-  author={Liu, Shaoteng and Yuan, Haoqi and Hu, Minda and Li, Yanwei and Chen, Yukang and Liu, Shu and Lu, Zongqing and Jia, Jiaya},
-  journal={arXiv preprint},
-  year={2024}
-}
-
-@inproceedings{Fu2024FuRL,
-  title={{FuRL}: Visual-Language Models as Fuzzy Rewards for Reinforcement Learning},
-  author={Fu, Yuwei and Zhang, Haichao and Wu, Di and Xu, Wei and Boulet, Benoit},
-  booktitle={International Conference on Machine Learning (ICML)},
-  year={2024},
-  pages={14256--14274},
-  doi={10.48550/arxiv.2406.00645}
-}
-
-@article{Cui2018KDPP,
-  title={Kernel Dynamic Policy Programming: Applicable Reinforcement Learning to Robot Systems with High Dimensional States},
-  author={Cui, Yunduan and Matsubara, Takamitsu and Sugimoto, Kenji},
-  journal={Neural Networks},
-  year={2018},
-  doi={10.1016/j.neunet.2017.06.007}
-}
-
-@article{Gao2022RLRoboticKnee,
-  title={Reinforcement Learning Control of Robotic Knee with Human-in-the-Loop by Flexible Policy Iteration},
-  author={Gao, Xiang and Si, Jennie and Wen, Yue and Li, Minhan and Huang, He},
-  journal={IEEE Transactions on Neural Networks and Learning Systems},
-  year={2022},
-  doi={10.1109/TNNLS.2021.3071727}
-}
-
-% =============================================================================
-% CATEGORY 7: Imitation Learning
-% =============================================================================
 
 @inproceedings{Ha2023ScalingUp,
   title={Scaling Up and Distilling Down: Language-Guided Robot Skill Acquisition},
@@ -308,237 +168,3 @@
   pages={3766--3777},
   doi={10.48550/arxiv.2307.14535}
 }
-
-@article{Kim2023MasterToRobot,
-  title={Training Robots Without Robots: Deep Imitation Learning for Master-to-Robot Policy Transfer},
-  author={Kim, Heecheol and Ohmura, Yoshiyuki and Nagakubo, Akihiko and Kuniyoshi, Yasuo},
-  journal={IEEE Robotics and Automation Letters},
-  volume={8},
-  number={5},
-  pages={2906--2913},
-  year={2023},
-  doi={10.1109/lra.2023.3262423}
-}
-
-@article{Balakrishna2022OnPolicy,
-  title={On-Policy Robot Imitation Learning from a Converging Supervisor},
-  author={Balakrishna, Ashwin and Thananjeyan, Brijen and Lee, Jonathan and Li, Felix and Zahed, Arsh and Gonzalez, Joseph E. and Goldberg, Ken},
-  journal={arXiv preprint arXiv:1907.03423},
-  year={2022},
-  doi={10.48550/arxiv.1907.03423}
-}
-
-@article{Oh2023Bayesian,
-  title={Bayesian Disturbance Injection: Robust Imitation Learning of Flexible Policies for Robot Manipulation},
-  author={Oh, Hanbit and Sasaki, Hikaru and Michael, Brendan and Matsubara, Takamitsu},
-  journal={Neural Networks},
-  year={2023},
-  doi={10.1016/j.neunet.2022.11.008}
-}
-
-% =============================================================================
-% CATEGORY 8: World Models & Simulation
-% =============================================================================
-
-@article{Wu2022DayDreamer,
-  title={DayDreamer: World Models for Physical Robot Learning},
-  author={Wu, Philipp and Escontrela, Alejandro and Hafner, Danijar and Goldberg, Ken and Abbeel, Pieter},
-  journal={arXiv preprint arXiv:2206.14176},
-  year={2022},
-  url={https://arxiv.org/abs/2206.14176}
-}
-
-@article{Li2025OfflineWorldModel,
-  title={Offline Robotic World Model: Learning Robotic Policies without a Physics Simulator},
-  author={Li, Chenhao and Krause, Andreas and Hutter, Marco},
-  journal={arXiv preprint arXiv:2504.16680},
-  year={2025},
-  doi={10.48550/arxiv.2504.16680}
-}
-
-@article{Ye2025Video2Policy,
-  title={Video2Policy: Scaling Up Manipulation Tasks in Simulation through Internet Videos},
-  author={Ye, Weirui and Liu, Fangchen and Ding, Zheng and Gao, Yang and Rybkin, Oleh and Abbeel, Pieter},
-  journal={arXiv preprint arXiv:2502.09886},
-  year={2025},
-  doi={10.48550/arxiv.2502.09886}
-}
-
-% =============================================================================
-% CATEGORY 9: Multi-Robot & Fleet Learning
-% =============================================================================
-
-@article{Zhang2026Playful,
-  title={Playful Agentic Robot Learning},
-  author={Zhang, Junyi and Ge, Jiaxin and Yoo, Hanjun and Fu, Letian and Yang, Zihan and Liu, Yaowei and Saravanan, Raj and Yin, Shaofeng and Yu, Justin and Niu, Dantong and Wang, Zirui and Herzig, Roei and Goldberg, Ken and Bai, Yutong and Chan, David and Stoica, Ion and Kanazawa, Angjoo and Lei, Jiahui and Feng, Haiwen and Darrell, Trevor},
-  journal={arXiv preprint},
-  year={2026}
-}
-
-@article{Lin2025MultiAgent,
-  title={Policy-Conditioned Policies for Multi-Agent Task Solving},
-  author={Lin, Yue and Zhu, Shuhui and Li, Wenhao and Li, Ang and Qiao, Dan and Poupart, Pascal and Zha, Hongyuan and Wang, Baoxiang},
-  journal={arXiv preprint arXiv:2512.21024},
-  year={2025},
-  doi={10.48550/arxiv.2512.21024}
-}
-
-% =============================================================================
-% CATEGORY 10: Safety & Ethics in Robotics
-% =============================================================================
-
-@article{Ni2025SafetyAsPolicy,
-  title={Don't Let Your Robot Be Harmful: Responsible Robotic Manipulation via Safety-as-Policy},
-  author={Ni, Minheng and Zhang, Lei and Chen, Zihan and Bai, Kaixin and Chen, Zhaopeng and Zhang, Jianwei and Zhang, Lei and Zuo, Wangmeng},
-  journal={IEEE Robotics and Automation Letters},
-  volume={10},
-  number={12},
-  pages={12955--12962},
-  year={2025},
-  doi={10.1109/lra.2025.3623027}
-}
-
-@article{Savage2023MoralCode,
-  title={How Robots Can Learn to Follow a Moral Code},
-  author={Savage, Neil},
-  journal={Nature},
-  year={2023},
-  doi={10.1038/d41586-023-03258-1}
-}
-
-% =============================================================================
-% CATEGORY 11: Surveys & Frameworks
-% =============================================================================
-
-@article{Li2025FoundationSurvey,
-  title={What Foundation Models Can Bring for Robot Learning in Manipulation: A Survey},
-  author={Li, Dingzhe and Jin, Yixiang and Sun, YuHao and A, Yu and Yu, Hongze and Shi, Jun and Hao, Xiaoshuai and Hao, Peng and Liu, Huaping and Li, Xiang and Li, Xinde and Sun, Fuchun and Zhang, Jianwei and Fang, Bin},
-  journal={The International Journal of Robotics Research},
-  year={2025},
-  doi={10.1177/02783649251390579}
-}
-
-@article{Dierking2025Ark,
-  title={Ark: An Open-Source Python-Based Framework for Robot Learning},
-  author={Dierking, Magnus and Mower, Christopher E. and Das, Sarthak and Helong, Huang and Qiu, Jiacheng and Reading, Cody and Chen, Wei and Liang, Huidong and Guowei, Huang and Peters, Jan and Xingyue, Quan and Wang, Jun and Bou-Ammar, Haitham},
-  journal={arXiv preprint arXiv:2506.21628},
-  year={2025},
-  doi={10.48550/arxiv.2506.21628}
-}
-
-% =============================================================================
-% CATEGORY 12: Navigation
-% =============================================================================
-
-@inproceedings{Katyal2022GroupAware,
-  title={Learning a Group-Aware Policy for Robot Navigation},
-  author={Katyal, Kapil D. and Gao, Yuxiang and Markowitz, Jared and Pohland, Sara and Rivera, Corban G. and Wang, I-Jeng and Huang, Chien-Ming},
-  booktitle={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
-  year={2022},
-  pages={11328--11335},
-  doi={10.1109/iros47612.2022.9981183}
-}
-
-@article{Wang2025ObstacleAvoidance,
-  title={Research on Robot Obstacle Avoidance and Generalization Methods Based on Fusion Policy Transfer Learning},
-  author={Wang, Suyu and Xu, Zhenlei and Qiao, Peihong and Yue, Quan and Ke, Ya and Gao, Feng},
-  journal={Biomimetics},
-  year={2025},
-  doi={10.3390/biomimetics10080493}
-}
-
-@article{Keeratipranon2007Manifold,
-  title={Manifold Learning for Robot Navigation},
-  author={Keeratipranon, Narongdech and Maire, Frederic and Huang, Henry},
-  journal={International Journal of Neural Systems},
-  year={2007},
-  doi={10.1142/S0129065706000780}
-}
-
-% =============================================================================
-% CATEGORY 13: Grasping & Manipulation
-% =============================================================================
-
-@article{Mahler2021Ambidextrous,
-  title={Learning Ambidextrous Robot Grasping Policies},
-  author={Mahler, Jeffrey and Matl, Matthew and Satish, Vishal and Danielczuk, Michael and DeRose, Bill and McKinley, Stephen and Goldberg, Ken},
-  journal={Science Robotics},
-  year={2021},
-  doi={10.1126/scirobotics.aau4984}
-}
-
-% =============================================================================
-% CATEGORY 14: Language-to-Rewards & Task Specification
-% =============================================================================
-
-@article{Yu2023LanguageRewards,
-  title={Language to Rewards for Robotic Skill Synthesis},
-  author={Yu, Wenhao and Gileadi, Nimrod and Fu, Chuyuan and Kirmani, Sean and Lee, Kuang-Huei and Arenas, Montse and Chiang, Hao-Tien and Erez, Tom and Hasenclever, Leonard and Humplik, Jan and Ichter, Brian and Xiao, Ted and Xu, Peng and Zeng, Andy and Zhang, Tingnan and Heess, Nicolas and Sadigh, Dorsa and Tan, Jie and Tassa, Yuval and Xia, Fei},
-  journal={arXiv preprint arXiv:2306.08647},
-  year={2023},
-  doi={10.48550/arxiv.2306.08647}
-}
-
-@article{Mikami2024NLPolicies,
-  title={Natural Language as Policies: Reasoning for Coordinate-Level Embodied Control with {LLMs}},
-  author={Mikami, Yusuke and Melnik, Andrew and Miura, Jun and Hautam{\"a}ki, Ville},
-  journal={arXiv preprint arXiv:2403.13801},
-  year={2024},
-  doi={10.48550/arxiv.2403.13801}
-}
-
-% =============================================================================
-% CATEGORY 15: Transformers for Robotics
-% =============================================================================
-
-@inproceedings{Huang2023SkillTransformer,
-  title={Skill Transformer: A Monolithic Policy for Mobile Manipulation},
-  author={Huang, Xiaoyu and Batra, Dhruv and Rai, Akshara and Szot, Andrew},
-  booktitle={IEEE/CVF International Conference on Computer Vision (ICCV)},
-  year={2023},
-  pages={10818--10828},
-  doi={10.1109/iccv51070.2023.00996}
-}
-
-% =============================================================================
-% CATEGORY 16: Lifelong Learning & Catastrophic Forgetting
-% =============================================================================
-
-@article{Xiong2020Catastrophic,
-  title={Encoding Primitives Generation Policy Learning for Robotic Arm to Overcome Catastrophic Forgetting in Sequential Multi-Tasks Learning},
-  author={Xiong, Fangzhou and Liu, Zhiyong and Huang, Kaizhu and Yang, Xu and Qiao, Hong and Hussain, Amir},
-  journal={Neural Networks},
-  year={2020},
-  doi={10.1016/j.neunet.2020.06.003}
-}
-
-% =============================================================================
-% CATEGORY 17: Miscellaneous / Historical
-% =============================================================================
-
-@article{Yang2012Progressive,
-  title={Progressive Learning and Its Application to Robot Impedance Learning},
-  author={Yang, B. H. and Asada, H.},
-  journal={IEEE Transactions on Neural Networks},
-  year={2012},
-  doi={10.1109/72.508937}
-}
-
-@article{Napoli2017LearningCurve,
-  title={The Learning Curve in Robotic Pancreaticoduodenectomy},
-  author={Napoli, N. and Kauffmann, E. F. and Palmeri, M. and Miccoli, M. and Costa, F. and Vistoli, F. and Amorese, G. and Boggi, Ugo},
-  journal={Digestive Surgery},
-  year={2017},
-  doi={10.1159/000445015}
-}
-
-@phdthesis{Zhou2025Dissertation,
-  title={Efficient and Adaptive Language-Conditioned Robot Learning: From End-to-End Training to Modularity and In-Context Learning},
-  author={Zhou, Yifan},
-  school={Arizona State University},
-  year={2025}
-}
-
-% =============================================================================
-% End of references
-% =============================================================================
